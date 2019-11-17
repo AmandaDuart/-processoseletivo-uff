@@ -1,0 +1,7 @@
+
+<% @pontos_bike.each do |ponto| %>
+    <p><%=ponto.calcula_distancia(@endereco_usuario)%>
+    <%= ponto.endereco.encode("UTF-8","Windows-1252") %></p>
+<% end %>
+
+<%= "Endereço não encontrado " if @pontos_bike == [] %>

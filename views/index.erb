@@ -1,63 +1,63 @@
 <h1>Bike Rio</h1>
-<form action="/check_bike" method="POST">
+<form action="/check_bike" method="POST" >
   <div class="form-row">
     <div class="form-group col-md-3">
       <label for="inputAddress">Endereço</label>
-      <input type="text" name="post[endereco]" class="form-control" id="inputAddress" placeholder="Digite seu endereco">
+      <input type="text" name="post[endereco]" class="form-control" id="inputAddress" placeholder="Digite seu endereco:">
     </div>
     <div class="form-group col-md-4">
       <label for="inputCidade">Cidade</label>
       <select id="inputCidade" name = "post[cidade]" class="form-control">
-         <option value="AC">Angra dos Reis</option>
-         <option value="AC">Aperibe</option>
-         <option value="AC">Araruama</option>
-         <option value="AC">Areal</option>
-         <option value="AC">Armacao de Buzios</option>
-         <option value="AC">Arraial do Cabo</option>
-         <option value="AC">Barra Mansa</option>
-         <option value="AC">Barra do Pirai</option>
-         <option value="AC">Belford Roxo</option>
-         <option value="AC">Bom Jardim</option>
-         <option value="AC">Bom Jesus do Itabapoana</option>
-         <option value="AC">Cabo Frio</option>
-         <option value="AC">Cachoeiras de Macacu</option>
-         <option value="AC">Cambuci</option>
-         <option value="AC">Campos dos Goytacazes</option>
-         <option value="AC">Cantagalo</option>
-         <option value="AC">Carapebus</option>
-         <option value="AC">Cardoso Moreira</option>
-         <option value="AC">Carmo</option>
-         <option value="AC">Casimiro de Abreu</option>
-         <option value="AC">Comendador Levy Gasparian</option>
-         <option value="AC">Conceicao de Macabu</option>
-         <option value="CDO">Cordeiro</option>
-         <option value="DB">Duas Barras</option>
-         <option value="DC">Duque de Caxias</option>
-         <option value="EPF">Engenheiro Paulo de Frontin</option>
-         <option value="GPM">Guapimirim</option>
-         <option value="IG">Iguaba Grande</option>
-         <option value="ITB">Itaborai</option>
-         <option value="ITI">Itaguai</option>
-         <option value="ITL">Italva</option>
-         <option value="ITO">Itaocara</option>
-         <option value="ITR">Itaperuna</option>
-         <option value="ITA">Itatiaia</option>
-         <option value="JEI">Japeri</option>
-         <option value="LM">Laje do Muriae</option>
-         <option value="MCU">Macau</option>
-         <option value="MCO">Macuco</option>
-         <option value="MGE">Mage</option>
-         <option value="MGA">Mangaratiba</option>
-         <option value="MIA">Marica</option>
-         <option value="MD">Mendes</option>
-         <option value="MP">Miguel Pereira</option>
-         <option value="MCA">Miracema</option>
-         <option value="NTE">Natividade</option>
+         <option value="Angra dos Reis">Angra dos Reis</option>
+         <option value="Aperibe">Aperibe</option>
+         <option value="Araruama">Araruama</option>
+         <option value="Areal">Areal</option>
+         <option value="Armacao de Buzios">Armacao de Buzios</option>
+         <option value="Arraial do Cabo">Arraial do Cabo</option>
+         <option value="Barra Mansa">Barra Mansa</option>
+         <option value="Barra do Pirai">Barra do Pirai</option>
+         <option value="Belford Roxo">Belford Roxo</option>
+         <option value="Bom Jardim">Bom Jardim</option>
+         <option value="Bom Jesus do Itabapoana">Bom Jesus do Itabapoana</option>
+         <option value="Cabo Frio">Cabo Frio</option>
+         <option value="Cachoeiras de Macacu">Cachoeiras de Macacu</option>
+         <option value="Cambuci">Cambuci</option>
+         <option value="Campos dos Goytacazes">Campos dos Goytacazes</option>
+         <option value="Cantagalo">Cantagalo</option>
+         <option value="Carapebus">Carapebus</option>
+         <option value="Cardoso Moreira">Cardoso Moreira</option>
+         <option value="Carmo">Carmo</option>
+         <option value="Casimiro de Abreu">Casimiro de Abreu</option>
+         <option value="Comendador Levy Gasparian">Comendador Levy Gasparian</option>
+         <option value="Conceicao de Macabu">Conceicao de Macabu</option>
+         <option value="Cordeiro">Cordeiro</option>
+         <option value="Duas Barras">Duas Barras</option>
+         <option value="Duque de Caxias">Duque de Caxias</option>
+         <option value="Engenheiro Paulo de Frontin">Engenheiro Paulo de Frontin</option>
+         <option value="Guapimirim">Guapimirim</option>
+         <option value="Iguaba Grande">Iguaba Grande</option>
+         <option value="Itaborai">Itaborai</option>
+         <option value="Itaguai">Itaguai</option>
+         <option value="Italva">Italva</option>
+         <option value="Itaocara">Itaocara</option>
+         <option value="Itaperuna">Itaperuna</option>
+         <option value="Itatiaia">Itatiaia</option>
+         <option value="Japeri">Japeri</option>
+         <option value="Laje do Muriae">Laje do Muriae</option>
+         <option value="Macau">Macau</option>
+         <option value="Macuco">Macuco</option>
+         <option value="Mage">Mage</option>
+         <option value="Mangaratiba">Mangaratiba</option>
+         <option value="Marica">Marica</option>
+         <option value="Mendes">Mendes</option>
+         <option value="Miguel Pereira">Miguel Pereira</option>
+         <option value="Miracema">Miracema</option>
+         <option value="Natividade">Natividade</option>
          <option value="NLS">Nilopolis</option>
-         <option value="NIT">Niteroi</option>
-         <option value="NF">Nova Friburgo</option>
-         <option value="NI">Nova Iguacu</option>
-         <option value="PCI">Paracambi</option>
+         <option value="Niteroi">Niterói</option>
+         <option value="Nova Friburgo">Nova Friburgo</option>
+         <option value="Nova Iguacu">Nova Iguacu</option>
+         <option value="Paracambi">Paracambi</option>
          <option value="PS">Paraiba do Sul</option>
          <option value="PAT">Parati</option>
          <option value="PA">Paty do Alferes</option>
@@ -96,12 +96,12 @@
          <option value="TDM">Trajano de Morais</option>
          <option value="TR">Tres Rios</option>
          <option value="VLA">Valenca</option>
-         <option value="VSI">Varre-Sai</option>
-         <option value="VSS">Vassouras</option>
-         <option value="VD">Volta Redonda</option>
+         <option value="Varre-Sai">Varre-Sai</option>
+         <option value="Vassouras">Vassouras</option>
+         <option value="Volta Redonda">Volta Redonda</option>
       </select>
     </div>
   </div>
   </div>
-  <button type="submit" name = "post[entrar]" class="btn btn-primary">Entrar</button>
+  <button type="submit"  class="btn btn-primary">Pesquisar</button>
 </form>
